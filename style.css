@@ -1,9 +1,9 @@
-a {
+nav a {
   color: crimson;
   text-decoration: none;
 }
 
-.about {
+.about blockquote {
   background-color: #eaeaea;
 }
 
@@ -16,14 +16,16 @@ a {
   color: crimson;
 }
 
-.creators.link {
+.creators .link {
   font-family: "Lato", sans-serif;
   color: crimson;
+  text-decoration: none;
 }
 
-.link.font {
+.creators .link.font {
   font-family: "PT Serif", serif;
   font-weight: bold;
+  text-decoration: none;
 }
 
 .cta h2 {
@@ -31,6 +33,7 @@ a {
   color: crimson;
 }
 
-li:nth-child(odd) {
+li:nth-child(1),
+li:nth-child(3) {
   text-decoration: underline;
 }
